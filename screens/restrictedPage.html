@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access Restricted</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        .div-container{
+            text-align: center;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #d9534f; /* Reddish color for emphasis */
+        }
+        p {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: #5bc0de; /* Light blue */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: #31b0d5;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="div-container">
+        <h1>Access Restricted</h1>
+        <p>This page is restricted. Please contact your administrator for access.</p>
+        <button onclick="window.location.href='https://www.example.com'">Return to Home</button>
+    </div>
+</body>
+</html>
